@@ -16,7 +16,7 @@ spec:
       containers:
       - name: bb-site
         image: getting-started
-        imagePullPolicy: Never
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
