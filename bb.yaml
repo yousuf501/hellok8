@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: bb-site
-        image: getting-started
+        image: yousuf501/getting-started:latest
         imagePullPolicy: Always
 ---
 apiVersion: v1
